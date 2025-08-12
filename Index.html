@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magadh-e-Mithas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px;
+            color: #ff5722;
+        }
+        .card p {
+            margin: 0 10px 10px;
+            color: #555;
+        }
+        footer {
+            background: #ff9800;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Magadh-e-Mithas 🍬</header>
+    <div class="container">
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gulab_jamun_%28homemade%29.jpg/640px-Gulab_jamun_%28homemade%29.jpg" alt="Gulab Jamun">
+            <h3>Gulab Jamun</h3>
+            <p>₹200 per kg</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rasgulla.jpg/640px-Rasgulla.jpg" alt="Rasgulla">
+            <h3>Rasgulla</h3>
+            <p>₹180 per kg</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Barfi_indian_sweets.jpg/640px-Barfi_indian_sweets.jpg" alt="Barfi">
+            <h3>Barfi</h3>
+            <p>₹220 per kg</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ladoo_sweet.jpg/640px-Ladoo_sweet.jpg" alt="Ladoo">
+            <h3>Motichoor Ladoo</h3>
+            <p>₹250 per kg</p>
+        </div>
+    </div>
+    <footer>© 2025 Magadh-e-Mithas | Taste of Tradition</footer>
+</body>
+</html>
